@@ -1,0 +1,26 @@
+{
+    "name": "ayunoss/cli",
+    "description": "Library for using console commands",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Ayuna Sereneva",
+            "email": "avsereneva@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ayunoss\\Cli\\": "src/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/ayunoss/cli.git"
+        }
+    ]
+}
